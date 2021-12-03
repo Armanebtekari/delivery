@@ -29,7 +29,7 @@ hr {
 
 .loading-text {
     position: absolute;
-    margin-left: 295px;
+    margin-left: 306px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -39,6 +39,7 @@ hr {
     animation-name: example1;
     animation-duration: 5s;
     margin-left: 7px;
+    margin-top: 26px;
 }
 
 @keyframes example1 {
@@ -51,6 +52,7 @@ hr {
     animation-name: example2;
     animation-duration: 5s;
     margin-left: 14px;
+    margin-top: 26px;
 }
 
 @keyframes example2 {
@@ -63,10 +65,11 @@ hr {
     animation-name: example3;
     animation-duration: 5s;
     margin-left: 22px;
+    margin-top: 26px;
 }
 
 @keyframes example3 {
-    20%   {right: 10;}
+    20%   {right: 5;}
     20%   {left: 445px;}
 }
 
