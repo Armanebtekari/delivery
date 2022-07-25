@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+html, body {
+    box-sizing: border-box;
+    background-color: #ECEFF5;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    background-color: #ffff;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 150px;
+}
+  
+.search-box {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 72.91666666666667vw;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    height: 35px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 0 6px;
+    top: 50px;
+}
+
+.search-btn {
+    position: fixed;
+    color: #000000;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-left: 145px;
+}
+
+.search-txt {
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    transition: 0.4s;   
+    line-height: 35px;
+    width: 180px;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    margin-top: 2px;
+    height: 30px;
+}
+
+.a-1 {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;      
+    font-weight: 600;
+}
+.a-2 {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;      
+    font-weight: 600;
+}
+
+.a-3 {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;      
+    font-weight: 600;
+}
+
+.a-4 {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;      
+    font-weight: 600;
+}
+
+.logo {
+    font-family: 'Libre Bodoni', serif;    
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+
+.text {
+    margin-left: 100px;
+}
+
+.h1-Hamburger {
+    color: black;
+    font-size: 55px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
+    margin-top: 120px;
+}
+
+.sell {
+    position: fixed;
+    width: 0%;
+    background-color: #ECEFF5;
+    z-index: 1000;
+    height: 800px;
+    max-width: 350px;
+    margin-left: -150px;
+    transition: width 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+
+.sell-like {
+    position: fixed;
+    width: 0%;
+    background-color: #ECEFF5;
+    z-index: 1000;
+    height: 800px;
+    max-width: 350px;
+    margin-left: -150px;
+    transition: width 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+}
+
+.details-1 {
+    margin-top: 100px;
+}
+
+.details {
+    display: none;
+    color: #000;
+    margin-left: 100px;
+}
+
+.like {
+    display: none;
+    color: #000;
+    margin-left: 100px;
+}
+
+.like-1 {
+    margin-top: 100px;
+}
+
+.Orders {
+    color: black;
+    font-size: 35px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.likes {
+    color: black;
+    font-size: 40px;
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.h4 {
+    margin-top: -20px;
+    color: #9DA7B5;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.card {
+    background-color: #ECEFF5;
+    align-items: center;
+    margin-left: -50px;
+    padding: 50px;
+    margin-top: -50px;
+}
+
+@media(max-width: 1024px) {
+    .container-card {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(4 , 4fr);
+    }
+
+    .card {
+        padding: 50px;
+    }
+}
+
+@media(max-width: 1408px) {
+    .container-card {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2 , 0fr);
+    }
+
+    .card {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 1060px) {
+    .container-card {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(2 , 2fr);
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 792px) {
+    .container-card {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1 , 3fr);
+    }
+}
+
+@media(max-width: 606px) {
+    .container-card {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1 , 3fr);
+    }
+}
+
+.image-1 {
+    margin-left: 14px;
+    width: 260px;
+    height: 162px;
+    margin-top: 14px;
+    border-radius:  5px 5px 5px 5px;
+}
+
+.name-Hamburger {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: -110px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.rise {
+    position: absolute;
+    color: black;
+    font-family: 'Libre Bodoni', serif;
+    margin-left: 210px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.add-cart {
+    margin-left: -110px;
+    margin-top: 50px;
+    border: none;
+    font-weight: 900;
+    background-color: #FBC835;
+    font-family: 'Poppins', sans-serif;
+    width: 130px;
+    height: 44px;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.icon-1 {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-2 {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-3 {
+    margin-top: 10px;
+    width: 60px;
+    height: 50px;
+}
+
+.icon-4 {
+    margin-top: 10px;
+    width: 55px;
+    height: 45px;
+}
+
+/* Footer */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    float: inline-end;
+    bottom: none;
+    background-color: #F3D88F;
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1240px;
+    bottom: 0;
+    padding: 30px 110px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.content_footer  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 130px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* Logo footer */
+
+.logo-size {
+    width: 70px;
+    height: 70px;
+}
+
+.profil .logo_area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profil .logo_area img {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+/* Text footer */
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.copy_right a {
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.copy_right span {
+    color: black;
+    margin-left: 3px;
+    font-weight: 600;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.logo_area .logo_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 1rem;
+    color: black;
+}
+
+.desc_area {
+    max-width: 320px;
+    margin-bottom: 1.25rem;
+}
+
+.desc_area p {
+    color: black;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* social media icon footer */
+
+.social_media a {
+    color: black;
+    margin-left: 90px;
+    font-size: 24px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.social_media a:hover {
+    color: black;
+    transition: all 0.5s;
+}
+
+/* link footer */
+
+.tou a {
+    color: black;
+    margin-left: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tou a:hover {
+    color: black;
+}
+
+.service_area {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.service_header  {
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+li.service_name {
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.service_header li a {
+    color: black;
+    padding-bottom: 1px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service_header li a:hover {
+    color: black;
+}
+
+.service_header li {
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    height: 1px;
+    margin-top: 40px;
+    border: none;
+    background-color: black;
+    margin-bottom: 1rem;
+}

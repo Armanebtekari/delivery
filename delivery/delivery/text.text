@@ -1,0 +1,40 @@
+<button class="add"><i class='bx bx-minus' style="margin-top: 9px; margin-left: 3px; font-size: 20px; color: #ffff;"></i></button>
+<h1 class="number">0</h1>
+<button class="remove"><i class='bx bx-plus' style="margin-top: 8px; margin-left: 3px; font-size: 20px; color: #ffff;"></i></button>
+.add {
+    position: absolute;
+    display: flex;
+    float: inline-end;
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 38px;
+    height: 37px;
+    background: #FBC835;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.remove {
+    position: absolute;
+    display: flex;
+    float: inline-end;
+    margin-top: 70px;
+    margin-left: 80px;
+    position: absolute;
+    width: 38px;
+    height: 37px;
+    background: #FBC835;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.number {
+    position: absolute;
+    display: flex;
+    float: inline-end;
+    font-size: 20px;
+    margin-top: 76px;
+    margin-left: 58px;
+}

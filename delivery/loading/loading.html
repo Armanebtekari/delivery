@@ -1,0 +1,29 @@
+<html>
+        <head>
+            <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" href="loading.css">    
+                <title>loading</title>
+            <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        </head>
+    <body>
+        <body onload="myFunction()" style="margin:0;">
+            <div style="display:none;" id="myDiv" class="animate-bottom">
+            </div>
+                <div id="loader">
+                    <img src="/delivery/image/scoter.png" alt="" class="img-loading">
+                    <hr>
+                    <script>
+                        function showPage() {
+                            location.href= "/delivery/delivery.html";
+                        }
+        
+                    var myVar;
+        
+                        function myFunction() {
+                            myVar = setTimeout(showPage, 3100);
+                        }
+                </script>
+    </body>
+</html>

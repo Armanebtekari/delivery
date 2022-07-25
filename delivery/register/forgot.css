@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+html,body {
+    background-color: white;
+    overflow: hidden;
+}
+
+.forgot-img {
+    position: absolute;
+    width: 530px;
+    margin-top: 100px;
+    height: 530px;
+    left: 20px;
+    top: 135px;
+    background: url(Security-cuate.png);
+}
+
+.account-forgot {
+    position: absolute;
+    width: 551px;
+    height: 310px;
+    left: 729px;
+    top: 209px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px 7px rgba(206, 205, 205, 0.81);
+    border-radius: 20px;
+}
+
+.forgot-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    width: 278px;
+    height: 168px;
+    left: 150px;
+    top: 70px;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.left {
+    position: absolute;
+    width: 600px;
+    height: 938px;
+    left: 0px;
+    top: -38px;
+    background: #FFFFFF;
+    box-shadow: 10px 5px 25px 10px rgba(146, 146, 146, 0.25);
+}
+
+.button-forgot {
+    position: absolute;
+    width: 445px;
+    height: 58px;
+    margin-top: 200px;
+    margin-left: 47px;
+    background: black;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: hidden;
+    cursor: pointer;
+    color: white;
+}
+
+.email {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    width: 425px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 50px;
+    background: #dadada;
+    border-radius: 10px;
+    border: hidden;
+    font-size: 15px;
+    border: 15px solid #dadada;
+}
+
+.password {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    border: hidden;
+    width: 425px;
+    height: 50px;
+    margin-left: 65px;
+    margin-top: 125px;
+    background: #dadada;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 15px solid #dadada;
+}
+
+.iconbox {
+    position: absolute;
+    width: 553px;
+    height: 106px;
+    left: 729px;
+    top: 569px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px 7px rgba(206, 205, 205, 0.81);
+    border-radius: 20px;
+}
