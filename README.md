@@ -44,7 +44,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-connect with Arman - [@armanebtekari](https://twitter.com/armanebtekari) - armanebtekari.gmail.com
+connect with Arman - [@armanebtekari](https://twitter.com/armanebtekari) - armanebtekari7.gmail.com
 
 Project Link: [https://github.com/armanebtekari/delivery](https://github.com/your_username/repo_name)
 
